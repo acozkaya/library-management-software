@@ -1,0 +1,196 @@
+﻿*{ margin:0px; padding:0px;}
+body 
+{
+    background:#e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11px;
+}
+
+#sayfa
+{
+    width:999px;
+    padding:10px;
+    margin:0px auto;
+    min-height:600px;
+    background:url('images/sayfabg.jpg') repeat-y;
+}
+
+#ust
+{
+    width:967px;
+    background:url('images/ustbg.jpg') repeat-x;
+    text-align:right;
+    padding-right:10px;
+    color:White;
+    font-weight:bold;
+    margin:0px 10px 10px 10px;
+    line-height:25px;
+}
+
+
+#header
+{
+    overflow:hidden;
+    width:999px;
+}
+
+#paylas
+{
+    margin:14px auto;
+    border-bottom:1px dashed #d7d7d7;
+    padding-bottom:5px;
+    text-align:right;
+    overflow:hidden;
+}
+
+#paylas #map
+{
+    float:left;
+    border:0px;
+    width:18px;
+}
+a.haritalink:link,a.haritalink:active,a.haritalink:visited
+{
+    float:left;
+    color:Black;
+    text-decoration:none;
+    font-weight:bold;
+    display:block;
+    width:auto;
+    font-size:12px;
+}    
+a.haritalink:hover
+{
+    color: #800000;
+}
+
+#harita
+{
+    float:left;
+    margin-top:3px;
+    margin-left:5px;
+    width:auto;
+}
+
+#menu
+{
+    float:left;
+    width:232px;
+    margin-right:10px;
+}
+
+#banner
+{
+    width:744px;
+    float:right;
+    margin-right:13px;
+}
+
+.menu
+{
+    display:block;
+    overflow:hidden;
+}
+
+.menu li
+{
+    float:left;
+    display:block;
+}
+
+.menu li a:link,.menu li a:active,.menu li a:visited
+{
+    background:#e5e5e5 url('images/arrow.png') no-repeat 5px;
+    margin:1px;
+    padding:5px;
+    padding-left:25px;
+    width:195px;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    margin-left:10px;
+    font-weight:bold;
+    color:#444444;    
+    border:1px solid #e1e1e1; 
+    height:28px;
+    line-height:28px;
+    font-size:12px;
+}
+.menu li a:hover
+{
+    background-color:#d9d9d9;
+}
+
+#orta
+{
+    overflow:hidden;
+    margin-top:10px;
+}
+
+#sol
+{
+    float:left;
+    width:223px;
+    overflow:hidden;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+#sag
+{
+    width:auto;
+    float:left;
+    width:742px;
+}
+
+.panel
+{
+    background:url('images/panelbg.png') repeat-x;
+    min-height:100px;
+    border:1px solid #e5e5e5;
+}
+
+.TextBox
+{
+    border: 1px solid #d7d7d7;
+    padding: 5px;
+    margin: 5px;
+    outline: 0px;
+    font-family: Trebuchet MS, Myriad Pro;
+    font-size: 12px;
+    color: #333333;
+}
+
+.Buton
+{
+    border: 1px solid #E1E1E1;
+    background: url('images/menubg.png') repeat-x;
+    text-align: center;
+    padding: 5px;
+    color: BLACK;
+    font-weight: bold;
+    margin: 5px;
+    line-height: 15px;
+    font-size:11px;
+    cursor:pointer;
+    border-bottom-style:none;
+}
+
+.dipnot
+{
+    font-size: 9px;
+    color: #666666;
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active
+{
+    color:Black;
+    font-weight:bold;
+    font-size:11px;
+    text-decoration:none;
+}
+a:hover
+{
+    color: #3333FF;
+}
